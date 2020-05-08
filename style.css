@@ -150,7 +150,7 @@ h1, .p{
     display: flex;
     flex-wrap: wrap;
     }
-.mission, .footer, .numbers{
+.mission, .footer{
 display: flex;
 flex-wrap: wrap;
 }
@@ -203,7 +203,7 @@ height: 15px;;
     border-radius: 20px;
 }
 .contact, .links, .connect{
-    min-width: 200px !important;
+    min-width: 200px;
     flex: 1;
 }
 .lfooter{
