@@ -1,0 +1,219 @@
+@font-face{
+    font-family: 'Great Vibes';
+    src: url(GreatVibes-Regular.ttf);
+}
+@font-face{
+    font-family: 'Libre Baskerville';
+    src: url(LibreBaskerville-Regular.ttf);
+}
+*{
+    font-family :'Open Sans', 'Helvetica Neue', sans-serif, 'Segoe UI'
+}
+.bl, .green, .mdisc, h3{
+    font-family: 'Libre Baskerville';
+}
+.break{
+    height: 68px;
+}
+@media only screen and (max-width: 1017px) {
+    .break{
+        height: 100px !important;
+    }
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    flex-wrap: wrap;
+
+}
+.logo{
+    margin-left: 2%;
+    height: 50;
+    width: 190px;
+}
+/* .navbar-collapse{
+    padding-left: 20%;
+} */
+.nav-link{
+    border-radius: 20px;
+    padding: 3px 25px;
+    margin: 2px;
+    text-align: center;
+    color: black !important;
+}
+.nav-link:hover, .nav-link:focus, .dropdown-item:hover, #home{
+    background-color: #0164b3;
+
+}
+.blue{
+    background-color: #0164b3;
+}
+
+/* .dropdown-item{
+    display: none;
+} */
+/* .dropdown:hover .dropdown-item{
+    display: block !important;
+} */
+.bl-header{
+    padding: 10px 60px;
+display: flex;
+}
+
+.social{
+    height: 20px;
+    margin: 0 8px;
+}
+.white{
+    color: white;
+}
+#p1{
+    margin: auto;
+}
+.button{
+    margin: 0px 5px;
+    size: 10px;
+}
+.news{
+    margin: 5px 20px 5px 20px;
+}
+.green, .greenp{
+    color: #8dc73f;
+}
+.bl{
+    color: #0164b3;
+}
+.silver{
+    color: #aaabac;
+}
+h1, .p{
+    text-align: center;
+}
+.p{
+    font-size: 30px;
+}
+.favicon{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+.p2{
+    margin: 20px 7%;
+    line-height: 1.8em;
+    text-align: justify;
+}
+.monthly, .doing {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.monthly{
+    padding: 60px 30px;
+}
+.mlogo{
+    width: 40px;
+    margin: 0px 100px;
+}
+.mfig{
+    font-family: 'Great Vibes', cursive;
+    margin-top: 0;
+}
+.mdisc, .ddisc{
+    text-align: center;
+}
+.grey{
+    background-color: whitesmoke;
+}
+.box{
+    background-color: white;
+    box-shadow: 0px 8px 10px gray;
+    flex: auto;
+    width: 300px;
+    margin: 20px 20px;
+    padding: 30px;
+}
+.dlogo{
+    width: 70px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.container {
+    padding: 70px 5px;
+}
+.mission-upcoming{
+    display: flex;
+    flex-wrap: wrap;
+    }
+.mission, .footer, .numbers{
+display: flex;
+flex-wrap: wrap;
+}
+.missiondiv{
+    /* flex: 3; */
+    width: 750px;
+}
+.upcoming{
+    margin: 5px;
+width: 300px;
+height: 200px;
+}
+.mission1{
+    margin: 10px;
+    width: 350px;
+    height: 60px;
+    padding: 15px 30px;
+}
+h5{
+    display: inline-block;
+    margin-left: 20px;
+}
+.p3{
+    line-height: 1.8em;
+    text-align: justify;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image {
+    width: 200px;
+    margin: 2px;
+}
+.black{
+    background-color: black;
+}
+.logo2{
+    width: 15px;
+height: 15px;;
+}
+.space{
+    margin: 0px 5px 0px 25px;
+}
+.circle{
+    widows: 25px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.contact, .links, .connect{
+    min-width: 200px !important;
+    flex: 1;
+}
+.lfooter{
+    font-size: small;
+    padding: 10px 5% !important;
+}
+.name{
+    color: coral;
+    padding: 20px 0px 0px 0px;
+    font-family: 'Libre Baskerville';
+    font-weight: bold;
+    font-size: larger;
+}
