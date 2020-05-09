@@ -150,7 +150,7 @@ h1, .p{
     display: flex;
     flex-wrap: wrap;
     }
-.mission, .footer{
+.mission, .footer, .numbers{
 display: flex;
 flex-wrap: wrap;
 }
@@ -216,4 +216,7 @@ height: 15px;;
     font-family: 'Libre Baskerville';
     font-weight: bold;
     font-size: larger;
+}
+.num{
+    width: 300px;
 }
